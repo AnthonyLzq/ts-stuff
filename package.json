@@ -13,7 +13,8 @@
     "function:overload": "ts-node src/01-function-overload.ts",
     "call:signatures": "ts-node src/02-call-signatures.ts",
     "readonly:arrays:tuples": "ts-node src/03-readonly-arrays-and-tuples.ts",
-    "this:parameter": "ts-node src/04-this-parameter.ts"
+    "this:parameter": "ts-node src/04-this-parameter.ts",
+    "temporal:uncertainty": "ts-node src/05-temporal-uncertainty.ts"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",
@@ -58,13 +59,14 @@
     "test": "test"
   },
   "dependencies": {
-    "eslint-plugin-es": "^3.0.1",
-    "eslint-module-utils": "^2.8.0",
-    "eslint-plugin-es-x": "^7.1.0",
+    "@faker-js/faker": "^8.0.2",
     "eslint-import-resolver-node": "^0.3.7",
+    "eslint-module-utils": "^2.8.0",
+    "eslint-plugin-es": "^3.0.1",
+    "eslint-plugin-es-x": "^7.1.0",
     "eslint-scope": "^7.2.0",
-    "eslint-visitor-keys": "^3.4.1",
     "eslint-utils": "^2.1.0",
+    "eslint-visitor-keys": "^3.4.1",
     "prettier-linter-helpers": "^1.0.0"
   },
   "repository": {
