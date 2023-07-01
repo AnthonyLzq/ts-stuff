@@ -14,7 +14,8 @@
     "call:signatures": "ts-node src/02-call-signatures.ts",
     "readonly:arrays:tuples": "ts-node src/03-readonly-arrays-and-tuples.ts",
     "this:parameter": "ts-node src/04-this-parameter.ts",
-    "temporal:uncertainty": "ts-node src/05-temporal-uncertainty.ts"
+    "temporal:uncertainty": "ts-node src/05-temporal-uncertainty.ts",
+    "definite:assignment:declaration": "ts-node src/06-definite-assignment-declaration.ts"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",
