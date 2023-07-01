@@ -16,7 +16,8 @@
     "this:parameter": "ts-node src/04-this-parameter.ts",
     "temporal:uncertainty": "ts-node src/05-temporal-uncertainty.ts",
     "definite:assignment:declaration": "ts-node src/06-definite-assignment-declaration.ts",
-    "assertion:functions": "ts-node src/07-assertion-functions.ts"
+    "assertion:functions": "ts-node src/07-assertion-functions.ts",
+    "discriminated:union": "ts-node src/08-discriminated-union.ts"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",
