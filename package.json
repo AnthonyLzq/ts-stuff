@@ -1,0 +1,78 @@
+{
+  "name": "ts-stuff",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "description": "Some stuff I didn't know about TS",
+  "scripts": {
+    "lint": "eslint src/* --ext .ts",
+    "service": "nodemon",
+    "start": "node dist/index.js",
+    "release": "standard-version",
+    "test:local": "jest --setupFiles dotenv/config --ci -i --forceExit",
+    "test:ci": "jest --ci -i",
+    "function:overload": "ts-node src/01-function-overload.ts"
+  },
+  "author": "AnthonyLzq <sluzquinosa@uni.pe>",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/types": "^29.5.0",
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.2",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.5.0",
+    "jest-unit": "^0.0.2",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "ts-jest": "^29.1.1",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.1.6"
+  },
+  "nodemonConfig": {
+    "watch": [
+      ".env",
+      "src"
+    ],
+    "ext": "ts",
+    "ignore": [
+      "src/**/*.test.ts"
+    ],
+    "exec": "npx ts-node -r dotenv/config ./src/index"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "eslint-plugin-es": "^3.0.1",
+    "eslint-module-utils": "^2.8.0",
+    "eslint-plugin-es-x": "^7.1.0",
+    "eslint-import-resolver-node": "^0.3.7",
+    "eslint-scope": "^7.2.0",
+    "eslint-visitor-keys": "^3.4.1",
+    "eslint-utils": "^2.1.0",
+    "prettier-linter-helpers": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyLzq/ts-stuff.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "bugs": {
+    "url": "https://github.com/AnthonyLzq/ts-stuff/issues"
+  },
+  "homepage": "https://github.com/AnthonyLzq/ts-stuff#readme"
+}
