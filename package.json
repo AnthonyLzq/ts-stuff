@@ -12,7 +12,8 @@
     "test:ci": "jest --ci -i",
     "function:overload": "ts-node src/01-function-overload.ts",
     "call:signatures": "ts-node src/02-call-signatures.ts",
-    "readonly:arrays:tuples": "ts-node src/03-readonly-arrays-and-tuples.ts"
+    "readonly:arrays:tuples": "ts-node src/03-readonly-arrays-and-tuples.ts",
+    "this:parameter": "ts-node src/04-this-parameter.ts"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",
