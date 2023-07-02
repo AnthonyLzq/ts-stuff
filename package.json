@@ -19,7 +19,8 @@
     "assertion:functions": "ts-node src/07-assertion-functions.ts",
     "discriminated:union": "ts-node src/08-discriminated-union.ts",
     "keyof:type:operator": "ts-node src/09-keyof-type-operator.ts",
-    "mapped:types": "ts-node src/12-mapped-types.ts"
+    "mapped:types": "ts-node src/12-mapped-types.ts",
+    "mapped:types:modifiers": "ts-node src/13-mapped-types-modifiers.ts"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",
