@@ -18,7 +18,8 @@
     "definite:assignment:declaration": "ts-node src/06-definite-assignment-declaration.ts",
     "assertion:functions": "ts-node src/07-assertion-functions.ts",
     "discriminated:union": "ts-node src/08-discriminated-union.ts",
-    "keyof:type:operator": "ts-node src/09-keyof-type-operator.ts"
+    "keyof:type:operator": "ts-node src/09-keyof-type-operator.ts",
+    "mapped:types": "ts-node src/12-mapped-types.ts"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",
