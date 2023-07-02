@@ -24,7 +24,8 @@
     "literal:unions:primitives": "ts-node src/14-literal-unions-with-primitives.ts",
     "satisfies": "ts-node src/15-satisfies.ts",
     "propertykey": "ts-node src/16-propertykey.ts",
-    "thistype:utility": "ts-node src/17-thistype-utility.ts"
+    "thistype:utility": "ts-node src/17-thistype-utility.ts",
+    "mapped:types:as:clauses": "ts-node src/18-mapped-types-as-clauses.ts"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",
