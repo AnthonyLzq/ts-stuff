@@ -21,7 +21,8 @@
     "keyof:type:operator": "ts-node src/09-keyof-type-operator.ts",
     "mapped:types": "ts-node src/12-mapped-types.ts",
     "mapped:types:modifiers": "ts-node src/13-mapped-types-modifiers.ts",
-    "literal:unions:primitives": "ts-node src/14-literal-unions-with-primitives.ts"
+    "literal:unions:primitives": "ts-node src/14-literal-unions-with-primitives.ts",
+    "satisfies": "ts-node src/15-satisfies.ts"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",
